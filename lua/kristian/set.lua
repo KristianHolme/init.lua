@@ -12,6 +12,7 @@ vim.wrap = false
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+vim.opt.ic = true
 
 vim.opt.termguicolors = true
 
