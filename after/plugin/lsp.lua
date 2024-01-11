@@ -17,7 +17,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'julials', 'pyright'},
+  ensure_installed = {'julials', 'pyright', 'matlab_ls'},
   handlers = {
     lsp_zero.default_setup,
     lua_ls = function()
