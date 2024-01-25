@@ -35,7 +35,6 @@ require("lazy").setup(
 		dependencies = { "nvim-lua/plenary.nvim" }
 	},
 	{
-
 		"mbbill/undotree"
 	},
 	{
@@ -76,4 +75,3 @@ require("lazy").setup(
     {'vim-airline/vim-airline-themes'}
 }
 )
---- require 'nvim-treesitter.install'.compilers = { "clang" }
