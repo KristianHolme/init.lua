@@ -71,7 +71,9 @@ require("lazy").setup(
             -- or leave it empty to use the default settings
             -- refer to the configuration section below
         }
-    }
+    },
+    {'vim-airline/vim-airline'},
+    {'vim-airline/vim-airline-themes'}
 }
 )
 --- require 'nvim-treesitter.install'.compilers = { "clang" }
