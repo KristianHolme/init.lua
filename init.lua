@@ -68,10 +68,12 @@ require("lazy").setup(
         opts = {
             -- your configuration comes here
             -- or leave it empty to use the default settings
-            -- refer to the configuration section below
+            -- refer to the configuration section below'
         }
     },
     {'vim-airline/vim-airline'},
-    {'vim-airline/vim-airline-themes'}
+    {'vim-airline/vim-airline-themes'},
+    {'nvim-tree/nvim-tree.lua'},
+    {'nvim-tree/nvim-web-devicons'}
 }
 )
