@@ -56,7 +56,6 @@ require("lazy").setup(
 	{'saadparwaiz1/cmp_luasnip'},
 	{'rafamadriz/friendly-snippets'},
 
-    {'daeyun/vim-matlab'},
     {'lervag/vimtex'},
     {
         "folke/which-key.nvim",
