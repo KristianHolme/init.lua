@@ -8,3 +8,4 @@ function()
 end,
 {desc='grep > find files'})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {desc='help tags'})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {desc='find buffers'})
